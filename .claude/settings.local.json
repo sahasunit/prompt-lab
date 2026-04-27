@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir *)",
+      "Bash(npm init *)",
+      "Bash(node server/index.js)",
+      "Bash(curl -s http://localhost:3001/health)"
+    ]
+  }
+}

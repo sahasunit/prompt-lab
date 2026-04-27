@@ -1,0 +1,27 @@
+{
+  "name": "prompt-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahasunit/prompt-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sahasunit/prompt-lab/issues"
+  },
+  "homepage": "https://github.com/sahasunit/prompt-lab#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
